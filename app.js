@@ -8,6 +8,7 @@ const bFour = document.getElementById("b-four");
 const finalResult = document.getElementById("finalResult");
 const results = document.getElementById("results");
 
+// solution
 bOne.onclick = () => {
   const resultOne = inputOne.value * inputTwo.value;
   finalResult.innerText = `${inputOne.value} * ${inputTwo.value} = ${resultOne}`;
